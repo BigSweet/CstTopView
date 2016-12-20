@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CstTopView">
+        <attr name="LeftText" format="string" />
+        <attr name="LeftTextSize" format="dimension" />
+        <attr name="LeftTextColor" format="color|reference" />
+        <attr name="RightText" format="string" />
+        <attr name="RightTextSize" format="dimension" />
+        <attr name="RightTextColor" format="color|reference" />
+        <attr name="TitleText" format="string" />
+        <attr name="TitleSize" format="dimension" />
+        <attr name="TitleColor" format="reference|color" />
+        <attr name="leftBG" format="color|reference" />
+        <attr name="rightBg" format="reference|color" />
+        <attr name="titleBG" format="reference|color" />
+    </declare-styleable>
+
+</resources>
+
+    <!--在Valus文件夹下面新建一个atts文件，使用styleable来定义我们的需要实现的一些自定义的属性，name中放置属性的名字，frormat设置属性的类型,比如左边的textview的文字大小我们用dimen类型来定义
+         有的人肯定会问为什么不用button，而用textview呢，因为我觉得textview比button更加灵活，我们在xml中可以通过设置drawleft设置图片，也能设置点击事件，功能比较灵活
+         定位好我们需要的属性之后，新建一个java文件，去调用我们的属性，并赋值
+    -->

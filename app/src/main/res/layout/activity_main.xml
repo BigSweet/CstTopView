@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.anlaiye.swt.csttopview.MainActivity">
+
+    <com.anlaiye.swt.csttopview.CstTopView
+        android:id="@+id/csttopview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:LeftText="我是左边"
+        app:leftBG="@color/colorPrimary"
+        app:LeftTextSize="9sp"
+        app:RightText="我是右边"
+        app:RightTextSize="9sp"
+        app:rightBg="@color/colorAccent"
+        app:TitleSize="10sp"
+        app:TitleText="我是中间"
+        app:titleBG="@color/red">
+
+    </com.anlaiye.swt.csttopview.CstTopView>
+
+
+</LinearLayout>
